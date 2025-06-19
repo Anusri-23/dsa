@@ -1,0 +1,7 @@
+use  details;
+create table Anusri(name varchar(20),marks int,department varchar(7),section varchar(5));
+select * from Anusri;
+insert into Anusri values("anusri",90,"BCA","c"),("aashmaya",95,"BCA","B"),("kaviya",98,"BCA","B"),
+("jeni",99,"BCA","B"),("manisha",80,"BCA","B");
+update Anusri set name="madhu"where name="aashmaya";
+select name,department,section from Anusri where (marks<60);
